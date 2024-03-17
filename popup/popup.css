@@ -1,0 +1,80 @@
+
+body{
+    background-color: #003300;
+    font-family: 'poppins', sans-serif;
+}
+
+#overlay{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+    opacity: 0.8;
+}
+#popupbox{
+    position: absolute;
+    bottom: 50%;
+    z-index: 3;
+    background-color: #ffffff;
+    box-shadow: 10px 20px;     
+    color: #000000;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    left: 30%;
+    display: none;
+}
+#header{
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 10px 20px;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    left: 40%;
+    bottom: 50%;
+    text-align: center;
+    color: #000000;
+}
+#header h1{
+    font-size: 40px;
+}
+#showbtn{
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: #003300;
+    color: #ffffff;
+}
+#showbtn:hover{
+    opacity: 0.3;
+    transform: scale(1.5);
+}
+#cancelbtn{
+    padding: 10px 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    left: 40%;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: #003300;
+    color: #ffffff;
+}
+#cancelbtn:hover{
+    opacity: 0.3;
+    transform: scale(1.5);
+}
