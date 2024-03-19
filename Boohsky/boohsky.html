@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Boohsky </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="boohsky.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar"> 
+            <h1> Boohsky </h1>
+        </div>
+        <div id="container"> 
+            <div id="book-container"> 
+                <h2> Rich Dad poor Dad </h2>
+                <h5> Robert </h5>
+                <p> 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ullam modi minus, deserunt quibusdam porro deleniti laudantium? Molestiae adipisci aspernatur soluta voluptate fuga tempora itaque, non modi ullam facere! Possimus.
+                </p>
+                <button onclick="del(event)"> Delete </button>
+            </div>
+        </div>
+        <div id="popup-overlay"> </div>
+        <div id="popup-box"> 
+            <h2> Add Book </h2>
+            <form>
+                <input type="text" placeholder="Book Tittle" id="book-title-input">
+                <input   type="text" placeholder="Book Author" id="book-author-input">
+                <textarea rows="4" cols="50" placeholder="Short Description" id="book-description-input"></textarea>
+                <button id="add-book"> ADD </button>
+                <button id="cancel-popup"> CANCEL </button>
+            </form>
+        </div>
+        <button class="add-button"> + </button>
+
+        <script src="boohsky.js"> </script>
+    </body>
+</html>
